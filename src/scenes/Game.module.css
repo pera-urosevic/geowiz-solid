@@ -1,0 +1,14 @@
+.Game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  padding: 12px;
+  width: 100%;
+}
+
+.guess {
+  max-width: 80%;
+  min-width: 320px;
+  margin: 0 auto;
+}

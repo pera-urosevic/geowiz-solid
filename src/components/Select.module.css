@@ -1,0 +1,44 @@
+.Select {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 18px;
+  color: var(--color-text);
+  background-color: var(--color-button);
+}
+
+.input.autocomplete {
+  border-radius: 6px 6px 0 0;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.matches {
+  position: absolute;
+  top: 38px;
+  left: 0;
+  right: 0;
+  border-radius: 0 0 6px 6px;
+  background-color: var(--color-button);
+  overflow: hidden;
+  z-index: 1;
+}
+
+.match {
+  padding: 6px 18px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: var(--color-button-focus);
+}

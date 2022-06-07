@@ -1,0 +1,8 @@
+node_modules
+dist
+public/data
+*.sh
+*.ps1
+.firebase
+.firebaserc
+firebase.json

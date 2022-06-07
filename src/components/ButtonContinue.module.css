@@ -1,0 +1,15 @@
+.win {
+  background-color: var(--color-win);
+}
+
+.win:not(:disabled):hover {
+  background-color: var(--color-win);
+}
+
+.lose {
+  background-color: var(--color-lose);
+}
+
+.lose:not(:disabled):hover {
+  background-color: var(--color-lose);
+}
