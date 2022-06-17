@@ -21,7 +21,7 @@ const GameMap: Component = () => {
   }
 
   const onMap = async (country: Country) => {
-    const topoUrl = `/data/${country.id}.geo.json`
+    const topoUrl = `${import.meta.env.BASE_URL}data/${country.id}.geo.json`
     const topoRes = await fetch(topoUrl)
     const topoNew = await topoRes.json()
     mapCountry([country.latlng[0], country.latlng[1]], topoNew)

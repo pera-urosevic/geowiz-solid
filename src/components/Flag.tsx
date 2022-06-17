@@ -7,7 +7,7 @@ export type FlagProps = {
 const Flag = (props: FlagProps) => {
   return (
     <div>
-      <img class={styles.Flag} src={`/data/${props.id()}.svg`} />
+      <img class={styles.Flag} src={`${import.meta.env.BASE_URL}data/${props.id()}.svg`} />
     </div>
   )
 }
