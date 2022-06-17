@@ -1,0 +1,1 @@
+import{b as n,d as v,f as d,t as c}from"./index.804c515a.js";const i="_Flag_1wvl4_1";var o={Flag:i};const _=c("<div><img></div>"),f=l=>(()=>{const t=_.cloneNode(!0),s=t.firstChild;return n(e=>{const a=o.Flag,r=`/data/${l.id()}.svg`;return a!==e._v$&&v(s,e._v$=a),r!==e._v$2&&d(s,"src",e._v$2=r),e},{_v$:void 0,_v$2:void 0}),t})();export{f as F};
