@@ -1,0 +1,1 @@
+import{b as n,d,f as v,t as i}from"./index.cc9a1a86.js";const o="_Flag_1wvl4_1";var c={Flag:o};const _=i("<div><img></div>"),g=l=>(()=>{const t=_.cloneNode(!0),s=t.firstChild;return n(e=>{const a=c.Flag,r=`/geowiz-solid/data/${l.id()}.svg`;return a!==e._v$&&d(s,e._v$=a),r!==e._v$2&&v(s,"src",e._v$2=r),e},{_v$:void 0,_v$2:void 0}),t})();export{g as F};
